@@ -345,11 +345,10 @@ ul li a:hover{
         display: block;
     }
     .hero{
-        margin-top: px;
         flex-direction: column;
     }
     .hero .content{
-        margin-top: 15%;
+        margin-top: 30%;
         align-items: center;
     }
     .content h1{
@@ -374,9 +373,4 @@ ul li a:hover{
         grid-template-columns: repeat(1,1fr);
     }
 
-}
-@media(max-width:650px){
-    .hero .content {
-        margin-top: 30%;
-    }
 }
